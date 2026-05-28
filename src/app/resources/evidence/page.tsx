@@ -36,10 +36,10 @@ export default function EvidencePracticePage() {
               Spot the <span className="text-[#f97316]">objection.</span>
             </Heading>
             <p style={fontBody} className={bodySize.lead}>
-              Each card is a moment from a round — a fresh set generated every
-              time you practice. Read what just happened, choose how you’d
-              respond, and see the Federal Rule behind it. No experience needed
-              — that’s the point.
+              Each card is a moment from a round. Read what just happened, choose
+              how you’d respond, and see the Federal Rule behind it. The
+              questions keep coming for as long as you want to practice — no
+              experience needed, that’s the point.
             </p>
           </div>
           <div className="max-w-2xl">

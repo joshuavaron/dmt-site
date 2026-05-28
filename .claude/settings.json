@@ -8,7 +8,8 @@
       "Bash(curl -s http://localhost:4123/resources)",
       "Bash(curl -s http://localhost:4123/resources/evidence)",
       "Bash(pkill -f \"next start -p 4123\")",
-      "Bash(pkill -f \"next start -p 4124\")"
+      "Bash(pkill -f \"next start -p 4124\")",
+      "Bash(node --input-type=module -e ' *)"
     ]
   }
 }
