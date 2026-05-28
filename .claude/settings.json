@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -v \"mailto:\\\\${\")",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/next/package.json'\\).version\\)\")",
+      "Bash(npx eslint *)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(curl -s http://localhost:4123/resources)",
+      "Bash(curl -s http://localhost:4123/resources/evidence)",
+      "Bash(pkill -f \"next start -p 4123\")",
+      "Bash(pkill -f \"next start -p 4124\")"
+    ]
+  }
+}
