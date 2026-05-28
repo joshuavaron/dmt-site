@@ -204,7 +204,7 @@ export default function AboutPage() {
             Want to be part of it?
           </Heading>
           <p style={fontBody} className={`max-w-xl mx-auto mb-8 ${bodySize.lead}`}>
-            Tryouts open each September to first- and second-year students.
+            Tryouts open each September to students of all years.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
             <PillButton href="/join" withArrow>

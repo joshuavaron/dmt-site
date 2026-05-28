@@ -81,7 +81,7 @@ const FAQS = [
   },
   {
     q: "Who can try out?",
-    a: "Tryouts are open to all first- and second-year undergraduates. They take place the first weekend of September, after our fall info sessions.",
+    a: "Tryouts are open to undergraduates of all years. They take place the first weekend of September, after our fall info sessions.",
   },
   {
     q: "What is the time commitment?",
@@ -277,7 +277,7 @@ export default function Home() {
           photoAlt="The Duke Mock Trial team celebrating together after a tournament"
           heading="It pushes you, then it has your back."
           quote="I came in terrified of public speaking. Two seasons later I was delivering a closing argument at Nationals — and the whole team was in the gallery cheering."
-          attribution="— A team captain, Class of 2025"
+          attribution="— Lauren Blake, team captain, Class of 2028"
         />
         <TestimonialSpread
           bg="#9333ea"
@@ -286,7 +286,7 @@ export default function Home() {
           photoAlt="Duke Mock Trial members laughing together at a tournament"
           heading="The friendships outlast the season."
           quote="The road trips and team dinners are my favorite part of the program. These are the people I call first, about everything, years later."
-          attribution="— A second-year member"
+          attribution="— Joshua Varon, treasurer, Class of 2029"
         />
         <TestimonialSpread
           bg="#10b981"
@@ -328,7 +328,7 @@ export default function Home() {
           Join us if you want to <span className="text-[#f97316]">win.</span>
         </Heading>
         <p style={fontBody} className={`${bodySize.lead} mb-9`}>
-          Tryouts open every September to first- and second-years — no experience
+          Tryouts open every September to students of all years — no experience
           required. Come find out why we keep ending up at Nationals.
         </p>
         <div className="flex flex-wrap gap-3">

@@ -20,7 +20,7 @@ import { CONTACT_EMAIL, INTEREST_FORM_URL, INSTAGRAM_URL, INSTAGRAM_HANDLE } fro
 export const metadata: Metadata = {
   title: "Join Us",
   description:
-    "Try out for Duke Mock Trial. Tryouts are open to all first- and second-year students each September — no experience required.",
+    "Try out for Duke Mock Trial. Tryouts are open to students of all years each September — no experience required.",
 };
 
 const STEPS = [
@@ -34,7 +34,7 @@ const STEPS = [
     n: "02",
     icon: Scale,
     title: "Audition the next weekend",
-    body: "Tryouts run the weekend of September 5–6 and are open to all first- and second-years. We will walk you through exactly what to prepare at the info session.",
+    body: "Tryouts run the weekend of September 5–6 and are open to students of all years. We will walk you through exactly what to prepare at the info session.",
   },
   {
     n: "03",
@@ -58,7 +58,7 @@ const FAQS = [
   },
   {
     q: "Who is eligible to try out?",
-    a: "Tryouts are open to all first- and second-year undergraduates.",
+    a: "Tryouts are open to undergraduates of all years.",
   },
   {
     q: "Do I have to attend an info session?",
@@ -97,7 +97,7 @@ export default function JoinPage() {
           Try out for the <span className="text-[#f97316]">win.</span>
         </Heading>
         <p style={fontBody} className={`mt-6 max-w-md ${bodySize.lead}`}>
-          Tryouts are open to all first- and second-year students — no experience
+          Tryouts are open to students of all years — no experience
           required, just curiosity and a competitive streak.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
@@ -112,7 +112,7 @@ export default function JoinPage() {
         <Container className="py-14 md:py-20">
           <SectionIntro
             title="How to join."
-            subtitle="Three steps from curious first-year to teammate."
+            subtitle="Three steps from curious newcomer to teammate."
             spacing="loose"
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
