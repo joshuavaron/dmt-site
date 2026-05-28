@@ -285,7 +285,7 @@ export default function Home() {
           photoSrc="/images/IMG_0888.JPG"
           photoAlt="Duke Mock Trial members laughing together at a tournament"
           heading="The friendships outlast the season."
-          quote="The road trips and team dinners are half the reason I stayed. These are the people I call first, about everything, years later."
+          quote="The road trips and team dinners are my favorite part of the program. These are the people I call first, about everything, years later."
           attribution="— A second-year member"
         />
         <TestimonialSpread
