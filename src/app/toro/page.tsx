@@ -237,8 +237,8 @@ export default function ToroPage() {
             ))}
           </div>
           <p style={fontBody} className={`text-center mt-12 max-w-2xl mx-auto ${bodySize.compact}`}>
-            To sponsor, or to ask about a custom arrangement, reach out to Travis
-            Swafford — we will get back to you quickly.
+            To sponsor, or to ask about a custom arrangement, reach out to Joshua
+            Varon — we will get back to you quickly.
           </p>
         </Container>
       </section>

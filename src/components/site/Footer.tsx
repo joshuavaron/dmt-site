@@ -96,7 +96,7 @@ export function Footer() {
                   style={fontBody}
                   className="text-sm text-white/70 hover:text-white transition-colors"
                 >
-                  Sponsorship — Travis Swafford
+                  Sponsorship — Joshua Varon
                 </a>
               </li>
               <li>
