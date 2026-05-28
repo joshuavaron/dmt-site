@@ -277,7 +277,7 @@ export default function Home() {
           photoAlt="The Duke Mock Trial team celebrating together after a tournament"
           heading="It pushes you, then it has your back."
           quote="I came in terrified of public speaking. Two seasons later I was delivering a closing argument at Nationals — and the whole team was in the gallery cheering."
-          attribution="— Lauren Blake, team captain, Class of 2028"
+          attribution="— Lauren Blake, Team Captain, Class of 2028"
         />
         <TestimonialSpread
           bg="#9333ea"
@@ -286,7 +286,7 @@ export default function Home() {
           photoAlt="Duke Mock Trial members laughing together at a tournament"
           heading="The friendships outlast the season."
           quote="The road trips and team dinners are my favorite part of the program. These are the people I call first, about everything, years later."
-          attribution="— Joshua Varon, treasurer, Class of 2029"
+          attribution="— Joshua Varon, Treasurer, Class of 2029"
         />
         <TestimonialSpread
           bg="#10b981"
