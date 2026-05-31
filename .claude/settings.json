@@ -9,7 +9,12 @@
       "Bash(curl -s http://localhost:4123/resources/evidence)",
       "Bash(pkill -f \"next start -p 4123\")",
       "Bash(pkill -f \"next start -p 4124\")",
-      "Bash(node --input-type=module -e ' *)"
+      "Bash(node --input-type=module -e ' *)",
+      "Bash(git log *)",
+      "Bash(git -C /home/joshu/dmt-site log --all -i -G\"swafford\" --oneline)",
+      "Bash(git --no-pager diff -- src/lib/team.ts)",
+      "Bash(git --no-pager diff --stat)",
+      "Bash(git --no-pager diff)"
     ]
   }
 }

@@ -56,6 +56,7 @@ export const PHOTOS: Record<string, string> = {
   "Sophie Brynes": "/team/sophie-brynes.png",
   "Timothy Kreinberg": "/team/timothy-kreinberg.jpg",
   "Tori Ely": "/team/tori-ely.png",
+  "Travis Swafford": "/team/travis-swafford.jpg",
   "Tristan Malhotra": "/team/tristan-malhotra.jpg",
   "William Feng": "/team/william-feng.png",
   "Zek Zhang": "/team/zek-zhang.jpeg",

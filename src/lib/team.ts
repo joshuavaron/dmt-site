@@ -55,7 +55,7 @@ export const MEMBERS_BY_YEAR: ClassGroup[] = [
 
 // Alumni, newest classes first.
 export const ALUMNI_BY_YEAR: ClassGroup[] = [
-  { year: "2026", people: ["Javan Mayrand", "Timothy Kreinberg", "Haley Geers", "Irene Biju", "Alexandria Thomas"] },
+  { year: "2026", people: ["Javan Mayrand", "Timothy Kreinberg", "Travis Swafford", "Haley Geers", "Irene Biju", "Alexandria Thomas"] },
   { year: "2025", people: ["Tori Ely", "Minjee Kim"] },
   { year: "2024", people: ["Evan Chan", "Jacob Hervey", "Heera Rajavel", "Nhu Bui", "John Lee", "Jiewei Li", "Maya Arora", "William Feng"] },
   { year: "2023", people: ["Kaleb Amare", "Lilly Kelemen", "Paul Kim", "Nellie Sun"] },
