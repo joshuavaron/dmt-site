@@ -14,7 +14,17 @@
       "Bash(git -C /home/joshu/dmt-site log --all -i -G\"swafford\" --oneline)",
       "Bash(git --no-pager diff -- src/lib/team.ts)",
       "Bash(git --no-pager diff --stat)",
-      "Bash(git --no-pager diff)"
+      "Bash(git --no-pager diff)",
+      "WebFetch(domain:dukemocktrial.org)",
+      "Bash(curl -sL https://dukemocktrial.org/our-team.html -o dmt-team.html)",
+      "Bash(curl -sL https://dukemocktrial.org/executive-board.html -o dmt-exec.html)",
+      "Bash(curl -sL https://dukemocktrial.org/alumni.html -o dmt-alumni.html)",
+      "Bash(grep -oiE 'data-[a-z-]+=\"[^\"]{40,}\"' dmt-exec.html)",
+      "Bash(grep -ioE '\\(gallery|popup|caption|lightbox|description|bio\\)[^>]{0,80}' dmt-exec.html)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -sL https://dukemocktrial.org/__TRACKED_VAR__.html -o dmt-profiles/__TRACKED_VAR__.html)",
+      "Bash(curl -s -o dmt-profiles/__TRACKED_VAR__.html -w '%{http_code}' https://dukemocktrial.org/__TRACKED_VAR__.html)",
+      "Bash(echo \"---exit: $?---\")"
     ]
   }
 }

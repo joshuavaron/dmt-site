@@ -140,19 +140,19 @@ function YearGroups({ groups }: { groups: ClassGroup[] }) {
           >
             Class of {g.year}
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-5">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
             {g.people.map((name) => (
               <Link
                 key={name}
                 href={`/team/${slugify(name)}`}
-                className="group flex items-center gap-3"
+                className="group flex flex-col items-center text-center"
               >
                 <div className="rounded-full ring-2 ring-transparent group-hover:ring-[#012169]/20 transition-[box-shadow]">
-                  <Avatar name={name} size="sm" />
+                  <Avatar name={name} size="lg" />
                 </div>
                 <span
                   style={{ ...fontBody, fontWeight: 500 }}
-                  className="text-[15px] text-neutral-800 leading-tight transition-colors group-hover:text-[#012169]"
+                  className="mt-3 text-[15px] text-neutral-800 leading-tight transition-colors group-hover:text-[#012169]"
                 >
                   {name}
                 </span>
